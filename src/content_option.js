@@ -1,81 +1,87 @@
-const logotext = "JOHN";
+// import corwin from "../assets/corwin.jpg"
+
+const logotext = "Corwin Hiatt Full-Stack Software Engineer";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Corwin Hiaat - Full-Stack Software Engineer in South Florida",
+    description: "I’m a Full-stack Software engineer, currently working in South Florida.",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "My name is Corwin Hiatt",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I Love coding",
+        second: "I Live to make the world a better place",
+        third: "I am a Web & Mobile App Developer",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
-};
+    description: 
+    "Hey there! My name is Corwin, and I am a junior engineer with a passion for designing innovative solutions. I am currently studying [Your Area of Study] and have devoted my career to mastering the technologies and principles necessary to make an impact in the engineering field. I have a strong background in JavaScript/NodeJS, CSS3, HTML5, GCP, mongoDB,  mySQL & PostreSQL. I am very eager to apply my knowledge to new projects. I am also familiar with both [Hardware and Software] engineering, which has enabled me to take on a variety of tasks. I AM always striving to stay on top of the latest trends and updates in the technology world. I love problem solving and constantly seek to learn and develop my skills. I believe that by focusing on quality, innovation, and collaboration, I can bring value to any team. Thanks for taking the time to check out my portfolio. If you would like to get in touch, feel free to reach out and I would love to chat. ---- When life on lifes terms show up... I code.",
+    
+    your_img_url:"https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+}; 
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "About Myself",
+    aboutme: "",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "ShowUp - Event Discovery Mobile App",
+        // who: "ShowUp",
+        where: "West Palm Beach, FL (remote)",
+        date: "2022 - Present",
     },
     {
-        jobtitle: "Designer of week",
+        jobtitle: "BocaCode Intern",
         where: "Jamalya",
-        date: "2019",
+        date: "2022-present",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Project Manager",
+        where: "Gardner Building Group LLC",
+        date: "2021-2022",
     },
 ];
 
 const skills = [{
-        name: "Python",
+        name: "React",
         value: 90,
     },
     {
-        name: "Djano",
+        name: "React-Native",
         value: 85,
     },
     {
-        name: "Javascript",
+        name: "JavaScript",
         value: 80,
     },
     {
-        name: "React",
-        value: 60,
+        name: "CSS3",
+        value: 90,
     },
     {
-        name: "Jquery",
+        name: "Python ",
         value: 85,
     },
 ];
 
 const services = [{
-        title: "UI & UX Design",
+        title: "Frontend Development",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+    },
+    {
+        title: "Web Development",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
     },
     {
         title: "Mobile Apps",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
     },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://picsum.photos/400/600/?grayscale",
+        desctiption: "An app Created to better communicate with my young children across the country. ",
+        link:  "https://brmessages.app/",
+        
     },
     {
         img: "https://picsum.photos/400/800/?grayscale",
@@ -136,9 +142,9 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "corwinhiatt@gmail.com",
+    YOUR_FONE: "(971) 267-9344",
+    description: " ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -147,9 +153,9 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
+    github: "https://github.com/CorwinHiatt",
     facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
+    linkedin: "https://www.linkedin.com/in/corwinhiatt/",
     twitter: "https://twitter.com",
 };
 export {

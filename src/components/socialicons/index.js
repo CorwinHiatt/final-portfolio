@@ -23,7 +23,7 @@ export const Socialicons = (params) => {
         )}
         {socialprofils.github && (
           <li>
-            <a href={socialprofils.github}>
+            <a target= "_blank" rel="noreferrer" href={socialprofils.github}>
               <FaGithub />
             </a>
           </li>
@@ -37,7 +37,7 @@ export const Socialicons = (params) => {
         )}
         {socialprofils.linkedin && (
           <li>
-            <a href={socialprofils.linkedin}>
+            <a href={socialprofils.linkedin} target="blank">
               <FaLinkedin />
             </a>
           </li>
