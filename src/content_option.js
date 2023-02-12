@@ -1,8 +1,9 @@
+// import corwin from "../../assets/images/corwin.jpg";
 // import corwin from "../assets/corwin.jpg"
 
 const logotext = "Corwin Hiatt Full-Stack Software Engineer";
 const meta = {
-    title: "Corwin Hiaat - Full-Stack Software Engineer in South Florida",
+    title: "Corwin Hiatt - Full-Stack Software Engineer in South Florida",
     description: "I’m a Full-stack Software engineer, currently working in South Florida.",
 };
 
@@ -14,7 +15,7 @@ const introdata = {
         third: "I am a Web & Mobile App Developer",
     },
     description: 
-    "Hey there! My name is Corwin, and I am a junior engineer with a passion for designing innovative solutions. I am currently studying [Your Area of Study] and have devoted my career to mastering the technologies and principles necessary to make an impact in the engineering field. I have a strong background in JavaScript/NodeJS, CSS3, HTML5, GCP, mongoDB,  mySQL & PostreSQL. I am very eager to apply my knowledge to new projects. I am also familiar with both [Hardware and Software] engineering, which has enabled me to take on a variety of tasks. I AM always striving to stay on top of the latest trends and updates in the technology world. I love problem solving and constantly seek to learn and develop my skills. I believe that by focusing on quality, innovation, and collaboration, I can bring value to any team. Thanks for taking the time to check out my portfolio. If you would like to get in touch, feel free to reach out and I would love to chat. ---- When life on lifes terms show up... I code.",
+    "Hey there! My name is Corwin, and I am a junior engineer with a passion for designing innovative solutions. I am currently studying for AWS certifications, and have devoted my career to mastering the technologies and principles necessary to make an impact in the engineering field. I have a strong background in JavaScript/NodeJS, CSS3, HTML5, GCP, mongoDB,  mySQL & PostreSQL. I am very eager to apply my knowledge to new projects.  ---- When life on lifes terms show up... I code.",
     
     your_img_url:"https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 }; 
@@ -24,9 +25,9 @@ const dataabout = {
     aboutme: "",
 };
 const worktimeline = [{
-        jobtitle: "ShowUp - Event Discovery Mobile App",
+        jobtitle: "Full-Stack Software Engineer",
         // who: "ShowUp",
-        where: "West Palm Beach, FL (remote)",
+        where: "ShowUp - Event Discovery (remote)",
         date: "2022 - Present",
     },
     {
@@ -43,11 +44,11 @@ const worktimeline = [{
 
 const skills = [{
         name: "React",
-        value: 90,
+        value: 100,
     },
     {
         name: "React-Native",
-        value: 85,
+        value: 75,
     },
     {
         name: "JavaScript",
@@ -55,7 +56,7 @@ const skills = [{
     },
     {
         name: "CSS3",
-        value: 90,
+        value: 92,
     },
     {
         name: "Python ",
@@ -64,16 +65,16 @@ const skills = [{
 ];
 
 const services = [{
-        title: "Frontend Development",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Full-Stack Development",
+        description: "I offer various services. Website & Mobile App design, development, maintenance, flat rate consulting, SEO, and more.    ",
     },
     {
         title: "Web Development",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "I offer flat-rate websites, and monthly maitaince plans. I also offer SEO services. ",
     },
     {
         title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "I build mobile apps for both iOS and Android. ",
     },
 ];
 

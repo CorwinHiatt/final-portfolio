@@ -32,7 +32,7 @@ const Headermain = () => {
         <div className={`site__navigation ${!isActive ? "menu__opend" : ""}`}>
           <div className="bg__menu h-100">
             <div className="menu__wrapper">
-              <div className="menu__container p-3">
+              <div className="menu__container p-3 position-absolute">
                 <ul className="the_menu">
                   <li className="menu_item ">
                   <Link  onClick={handleToggle} to="/" className="my-3">Home</Link>
