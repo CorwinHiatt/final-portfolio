@@ -26,22 +26,25 @@ const dataabout = {
 };
 const worktimeline = [{
         jobtitle: "Full-Stack Software Engineer",
+        role: "Developer",
         // who: "ShowUp",
         where: "ShowUp - Event Discovery (remote)",
         date: "2022 - Present",
     },
     {
-        jobtitle: "BocaCode Intern",
-        where: "Jamalya",
+        jobtitle: "Fullstack Software Engineer Intern",
+        where: "Bocacode",
         date: "2022-present",
+        role: "Developer",
     },
     {
         jobtitle: "Project Manager",
         where: "Gardner Building Group LLC",
         date: "2021-2022",
+        role: "Developer",
     },
 ];
-
+console.log(worktimeline)
 const skills = [{
         name: "React",
         value: 100,
@@ -155,9 +158,9 @@ const contactConfig = {
 
 const socialprofils = {
     github: "https://github.com/CorwinHiatt",
-    facebook: "https://facebook.com",
+    facebook: "https://facebook.com/CorwinHiatt",
     linkedin: "https://www.linkedin.com/in/corwinhiatt/",
-    twitter: "https://twitter.com",
+    twitter: "https://twitter.com/CorwinJH",
 };
 export {
     meta,

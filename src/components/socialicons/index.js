@@ -16,7 +16,7 @@ export const Socialicons = (params) => {
       <ul>
         {socialprofils.twitter && (
           <li>
-            <a href={socialprofils.twitter}>
+            <a target= "_blank" rel="noreferrer" href={socialprofils.twitter}>
               <FaTwitter />
             </a>
           </li>
@@ -30,14 +30,14 @@ export const Socialicons = (params) => {
         )}
         {socialprofils.facebook && (
           <li>
-            <a href={socialprofils.facebook}>
+            <a target= "_blank" rel="noreferrer" href={socialprofils.facebook}>
               <FaFacebookF />
             </a>
           </li>
         )}
         {socialprofils.linkedin && (
           <li>
-            <a href={socialprofils.linkedin} target="blank">
+            <a target= "_blank" rel="noreferrer" href={socialprofils.linkedin} >
               <FaLinkedin />
             </a>
           </li>
@@ -51,7 +51,7 @@ export const Socialicons = (params) => {
         )}
         {socialprofils.twitch && (
           <li>
-            <a href={socialprofils.twitch}>
+            <a target= "_blank" rel="noreferrer" href={socialprofils.twitch}>
               <FaTwitch />
             </a>
           </li>
