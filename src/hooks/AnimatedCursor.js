@@ -194,11 +194,11 @@ function CursorCore({
     // Cursor Visibility State
     useEffect(() => {
       if (isVisible) {
-        cursorInnerRef.current.style.opacity = 1
-        cursorOuterRef.current.style.opacity = 1
+        cursorInnerRef.current.style.opacity = 1000
+        cursorOuterRef.current.style.opacity = 1000
       } else {
-        cursorInnerRef.current.style.opacity = 0
-        cursorOuterRef.current.style.opacity = 0
+        cursorInnerRef.current.style.opacity = 1000
+        cursorOuterRef.current.style.opacity = 1000
       }
     }, [isVisible])
   
@@ -253,10 +253,10 @@ function CursorCore({
     // Cursor Styles
     const styles = {
       cursorInner: {
-        zIndex: 999,
+        zIndex: 9,
         display: 'block',
         position: 'fixed',
-        borderRadius: '50%',
+        borderRadius: '75%',
         width: innerSize,
         height: innerSize,
         pointerEvents: 'none',
@@ -273,7 +273,7 @@ function CursorCore({
         width: outerSize,
         height: outerSize,
         backgroundColor: `rgba(${color}, ${outerAlpha})`,
-        transition: 'opacity 0.15s ease-in-out, transform 0.15s ease-in-out',
+        transition: 'opacity 1.15s ease-in-out, transform 1.15s ease-in-out', //white orb grows slowly on click event
         willChange: 'transform',
         ...(outerStyle && outerStyle)
       }

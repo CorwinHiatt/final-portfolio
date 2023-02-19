@@ -26,7 +26,6 @@ const dataabout = {
 };
 const worktimeline = [{
         jobtitle: "Full-Stack Software Engineer",
-        role: "Developer",
         // who: "ShowUp",
         where: "ShowUp - Event Discovery (remote)",
         date: "2022 - Present",
@@ -35,16 +34,14 @@ const worktimeline = [{
         jobtitle: "Fullstack Software Engineer Intern",
         where: "Bocacode",
         date: "2022-present",
-        role: "Developer",
     },
     {
         jobtitle: "Project Manager",
         where: "Gardner Building Group LLC",
         date: "2021-2022",
-        role: "Developer",
     },
 ];
-console.log(worktimeline)
+
 const skills = [{
         name: "React",
         value: 100,
