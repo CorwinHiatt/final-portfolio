@@ -22,7 +22,7 @@ export const ContactUs = () => {
     setFormdata({ loading: true });
 
     const templateParams = {
-      from_name: formData.email,
+      form_name: formData.email,
       user_name: formData.name,
       to_name: contactConfig.YOUR_EMAIL,
       message: formData.message,
@@ -80,8 +80,9 @@ export const ContactUs = () => {
         </Row>
         <Row className="sec_sp">
           <Col lg="12">
+        
             <Alert
-              //show={formData.show}
+
               variant={formData.variant}
               className={`rounded-0 co_alert ${
                 formData.show ? "d-block" : "d-none"
@@ -126,6 +127,7 @@ export const ContactUs = () => {
                     onChange={handleChange}
                   />
                 </Col>
+                
                 <Col lg="6" className="form-group">
                   <input
                     className="form-control rounded-0"
