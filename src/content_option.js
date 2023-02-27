@@ -17,7 +17,7 @@ const introdata = {
     description: 
     "Hey there! My name is Corwin, and I am a junior engineer with a passion for designing innovative solutions. I am currently studying for AWS certifications, and have devoted my career to mastering the technologies and principles necessary to make an impact in the engineering field. I have a strong background in JavaScript/NodeJS, CSS3, HTML5, GCP, mongoDB,  mySQL & PostreSQL. I am very eager to apply my knowledge to new projects.  ---- When life on lifes terms show up... I code.",
     
-    your_img_url:"https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    your_img_url:"https://i.ibb.co/xh0XWyh/2022-10-31-Boca-Code-2.jpg",
 }; 
 
 const dataabout = {
